@@ -1,0 +1,10 @@
+{
+  "package_name": "boilethplate",
+  "version": "1.0.0",
+  "description": "Ethereum Development Boilerplate",
+  "dependencies": {
+    "zeppelin": "1.2.0",
+    "tokens": "0.0.2"
+  },
+  "license": "MIT"
+}

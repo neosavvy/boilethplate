@@ -1,0 +1,25 @@
+{
+  "name": "boilethplate",
+  "version": "1.0.0",
+  "description": "Ethereum Development Boilerplate",
+  "main": "truffle.js",
+  "repository": "https://github.com/neosavvyinc/boilethplate",
+  "author": "pablo@neosavvy.com",
+  "license": "MIT",
+  "scripts": {
+    "compile": "truffle compile",
+    "build": "truffle build",
+    "deploy": "truffle deploy",
+    "postinstall": "truffle install",
+    "console": "truffle console",
+    "test": "truffle test",
+    "testnet": "testrpc",
+    "coverage": "./node_modules/.bin/solidity-coverage"
+  },
+  "devDependencies": {
+    "ethereumjs-testrpc": "^4.0.1",
+    "solidity-coverage": "^0.2.1",
+    "solium": "^0.5.5",
+    "truffle": "^3.4.7"
+  }
+}
